@@ -1,0 +1,14 @@
+
+
+* its hard to figure out what the skill of the game is
+* the purpose of the game is to lead people into understanding the nature of addiction in relation to childhood abuse
+* a game is like a test, where you can only beat the game (or be best at the game) if you are better at the skills of the game than others
+  - a test is a challenge designed find out how much someone understand something
+  - if a person doesnt understand something then the test should fail them
+  - if a person understands everyting, then they should get full marks for the test
+* the game should present the player with a test and find out how much they know, then it should find out where they are struggling, then it should present you with more examples to practice, then it should test you again, it shouldnt give you something more challenging until you can pass the current challenge
+* i want the skills of the game to tie to purpose of the game
+
+
+* the hardest challenges of the game should reflect the deepest understanding of the thing
+* the starting challenges should introduce you to the scope of the game's arena and the foundational mechanics

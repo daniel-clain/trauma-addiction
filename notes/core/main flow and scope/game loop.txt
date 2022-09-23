@@ -1,0 +1,12 @@
+
+* have resources
+  - went right = happy
+  - went wrong = angry
+
+* dont have resources
+  - lots of energy and imagination
+    ~ stress
+      * too often = anxiety
+  - low energy and imagination
+    ~ sad
+      * too often = depression

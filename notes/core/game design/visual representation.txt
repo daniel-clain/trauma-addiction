@@ -1,0 +1,4 @@
+* game has different metrics rated between 0 and 100
+  - when they cross a certain threshold, the mechanics of the game can put the alien in different states
+  - when an alien is in a different state, that state is represented non verbally as much as possible, and then verbally with with the focus of giving clear info
+  

@@ -1,0 +1,8 @@
+* derived stats have no need to be stored in a data object because they are derived from base stats, you can always find the derived stats using the base states
+
+* the base stats change, and as they do, the derived stats recalculate as a response
+
+examples of stats that derive from other stats
+================================================
+ * age group, old age, derived from age > 60
+ * depressed, derived from average of last 

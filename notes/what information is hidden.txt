@@ -1,0 +1,6 @@
+* its easy to make a decision when you have basic mechanics and clear data
+  - only game mechanics info should have its availability limited, things outside the core game mechanics should be easy and clear
+
+* the core mechanics of the game are hidden
+  - eg the game doesnt spell out for you that its all about trauma and addiction
+  - basically you want to get a high score but as you try to, you get less that you would have expected, and you realise the game mechanics are hidden

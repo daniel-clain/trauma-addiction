@@ -1,0 +1,2 @@
+* this is an apsect that does has a logical place in the game
+* however, i feel like this is a separate dimension that isnt as interconnected as the other ones, however maybe ill later find that it is more interconnected and necessary to include

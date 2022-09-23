@@ -1,0 +1,166 @@
+
+@use 'helper-styles' as *
+@use 'reset-base' as *
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap')
+
+
+risk-management
+  @include flexCenter
+  overflow: hidden
+  flex-direction: column
+  background-color: #2c2e35
+  font-family: 'Open Sans'
+  font-weight: 500
+
+  t-container, .container
+    display: flex
+    flex-direction: column
+    padding: 0.2em
+
+  t-row, .row
+    display: flex
+    gap: 1em
+
+  t-heading, .heading
+    display: block
+
+  t-label
+    padding-right: 1rem
+    margin-right: auto
+    white-space: nowrap
+    text-transform: capitalize
+    &::after
+      content: ': '
+  
+  t-data
+    margin-left: auto
+    min-width: 2rem
+    text-align: right
+
+  t-group, .group
+    padding: 0.2rem 0
+    display: flex
+    flex-direction: column
+
+    t-heading, .heading
+        font-size: 1em
+
+  t-container, .container
+    .container, t-container
+      padding: 0
+      >*:not(t-heading, .heading, button)
+        padding-left: 1em
+        font-size: 0.9em
+
+        
+
+
+  pre-game
+    @include flexCenter
+    flex-direction: column
+    gap: 1rem
+    start-button, continue-button
+      @include button(green)
+
+
+  game-view
+    @include flexCenter
+    position: relative
+    max-width: 100%
+
+    game-background
+      @include flexCenter
+      pointer-events: none
+      img
+        height: 100%
+
+
+
+    alien-element
+      aspect-ratio: .461
+      z-index: 1
+      position: absolute
+      aspect-ratio: 1
+      background-repeat: no-repeat
+      background-size: contain
+      transition: height 1s, left 1s, bottom 1s
+
+      // height is set by code based on age and position
+
+      &.adult-model
+        &.model-base-1
+          background-image: url('./images/alien-states/base1.png')
+        &.model-base-2
+          background-image: url('./images/alien-states/base2.png')
+        &.furious-model
+          background-image: url('./images/alien-states/angry.png')
+        &.depressed-model
+          background-image: url('./images/alien-states/sad.png')
+        &.anxious-model
+          background-image: url('./images/alien-states/anxious.png')
+
+      &.baby-model
+        background-image: url('./images/alien-states/baby.png')
+
+      &.is-dead
+        background-image: url('./images/alien-states/dead.png')
+      
+      alien-name-container
+        bottom: 90%
+        position: absolute
+        width: 100%
+        text-align: center
+
+      &:not(.is-selected)
+        alien-info-container
+          display: none !important
+
+      &.is-selected
+        alien-info-container
+          display: block
+          position: absolute
+          left: 100%
+          top: 0
+          background: white
+          padding: .5rem
+          border: 2px solid black
+          font-size: 1rem
+
+          &.is-on-the-left
+            left: unset
+            right: 100%
+
+      
+            
+
+
+
+    player-interface
+      position: absolute
+      inset: 0
+      padding: 4%
+      pointer-events: none
+      * 
+        pointer-events: all
+        position: absolute
+
+      pause-button
+        @include button($color: yellow)
+        bottom: 1rem
+        left: 1rem   
+
+      pass-time-button
+        @include button($color: pink)
+        bottom: 1rem
+        right: 1rem   
+
+
+      game-level     
+        top: 1rem
+        left: 1rem
+      
+      game-time
+        @include positionCenter
+        top: 1rem
+        width: 100px

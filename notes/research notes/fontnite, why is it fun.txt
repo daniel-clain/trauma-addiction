@@ -1,0 +1,23 @@
+* cool
+  - bus with ballon
+  - skydiving, gliding
+* memory
+  - you know where to go to get good stuff
+  - you know what different sounds mean
+  - you know how long it will take for an enemy to be somewhere
+  - you know how other players think and you trick them
+    ~ closes the door behind to make the other player think nobody's been there
+
+* competition
+  - other players are just as good, trying to win in the same opportunity
+
+* skill
+  - (strategy, knowledge, intelligence) you have to out think your opponent
+  - (tactics, skill, strength) you have to out manoeuver your opponent
+  - thinking of multiple things at once
+    ~ is someone on to me
+    ~ where do i go next
+    ~ can i work with my team
+    ~ how strong or weak are the enemy
+  - decision making based on incomplete information and probability
+   ~ instead of decision paralysis, player makes the 

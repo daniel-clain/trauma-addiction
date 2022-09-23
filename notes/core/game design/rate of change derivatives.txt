@@ -1,0 +1,5 @@
+* the game pauses and unpauses as the base source of time
+* problem, if i make things change based on based time, then the number seem to quick(inappropriate frequency)
+  - of course you could make the change value relative to the base update frequency, but then youd be dealing with numbers that are not so 'developer freindly'
+
+* solution, inside of on time update function, there are derivatives functions with different frequencies, that way blocks of code dont need to run more than they need to, and each thing that changes over time can change on a frequency thats more appropriate. (eg dont check every millisecond if the mail has arrived)
